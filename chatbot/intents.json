@@ -1,0 +1,310 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good evening",
+                "What's up?",
+                "How are you?",
+                "Is anyone there?"
+            ],
+            "responses": [
+                "Hello! How are you feeling today?",
+                "Hi there! I'm here to listen \u2014 what's on your mind?",
+                "Hey! It's good to hear from you. How can I help today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Catch you later",
+                "Take care",
+                "Talk to you soon"
+            ],
+            "responses": [
+                "Take care of yourself. Remember, I'm always here if you need me.",
+                "Goodbye! You're not alone \u2014 reach out anytime.",
+                "See you later! You're doing great \u2014 keep going."
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "I'm feeling anxious",
+                "I can't stop worrying",
+                "I'm scared about my health",
+                "I'm having a panic attack",
+                "I feel restless and can't sleep",
+                "I'm nervous but excited",
+                "I'm feeling anxious and overwhelmed",
+                "I'm worried about my future",
+                "How do I stop feeling anxious?",
+                "I'm feeling anxious about tomorrow",
+                "I can't stop thinking about bad things happening",
+                "My mind is racing and I can't sleep",
+                "Tell me more about anxiety",
+                "What are the signs of anxiety?",
+                "How can I manage anxiety?"
+            ],
+            "responses": [
+                "I'm sorry to hear that you're feeling anxious. It's okay to feel this way \u2014 you're not alone.",
+                "Anxiety can feel overwhelming. Try grounding yourself by focusing on your breathing.",
+                "I'm here for you. Do you want to talk about what's making you feel this way?",
+                "It\u2019s okay to feel anxious sometimes. Talking to someone about it might help.",
+                "You're not alone. I\u2019m here to help you through this.",
+                "Anxiety can be overwhelming. Remember to take things one step at a time.",
+                "It's okay to feel this way \u2014 try focusing on something that calms you.",
+                "Breathing exercises might help. Would you like me to suggest one?",
+                "Anxiety often involves feeling nervous, restless, or having a sense of impending danger. Would you like to try a grounding exercise?",
+                "Breathing exercises and mindfulness techniques can help reduce anxiety. I can suggest some if you'd like.",
+                "It's important to talk to someone you trust about anxiety. You're not alone."
+            ]
+        },
+        {
+            "tag": "bipolar",
+            "patterns": [
+                "I keep missing my meds",
+                "I'm feeling extreme mood swings",
+                "I'm scared of manic episodes",
+                "I'm not sure how to track my mood",
+                "I'm feeling up and down lately",
+                "I have extreme mood swings",
+                "My mood changes really fast",
+                "My mood keeps changing",
+                "I'm feeling really up and then really down",
+                "I can't control my emotions"
+            ],
+            "responses": [
+                "Managing bipolar disorder can be challenging. It's important to have a support system.",
+                "Mood swings can be difficult to handle. Would you like to explore some coping strategies?",
+                "You're not alone. Talking to someone you trust could make a difference.",
+                "Mood swings can be tough to manage. Would you like to talk more about it?",
+                "It might help to track your mood and talk to someone you trust.",
+                "Mood swings can be tough. Keeping track of them might help identify patterns.",
+                "It's important to have a support system. Would you like to talk more about it?",
+                "It's okay to feel this way. I'm here to listen whenever you need me."
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "I'm feeling down",
+                "I feel like nothing matters",
+                "I'm tired all the time",
+                "I feel hopeless",
+                "I'm not interested in anything anymore",
+                "I'm feeling hopeless and anxious",
+                "I'm tired but can't sleep",
+                "I feel like nothing matters anymore",
+                "I'm feeling empty",
+                "I can't find motivation to do anything",
+                "I feel like I'm stuck in a dark place",
+                "Tell me more about depression",
+                "What are the signs of depression?",
+                "How can I help someone with depression?"
+            ],
+            "responses": [
+                "I'm really sorry you're feeling this way. You're not alone \u2014 I'm here to listen.",
+                "Feeling down can be tough. It might help to reach out to someone you trust.",
+                "It's okay to feel like this. You're not weak \u2014 you're human.",
+                "I'm really sorry to hear that you're feeling this way. You're not alone \u2014 I'm here to listen.",
+                "It might help to talk to someone you trust about these feelings.",
+                "It\u2019s hard when things feel this way. You don\u2019t have to go through it alone.",
+                "You're not weak for feeling this way. Talking to someone you trust might help.",
+                "It\u2019s okay to feel this way. I'm here to listen if you want to share more.",
+                "Depression can involve feeling sad, hopeless, or losing interest in activities. Talking to someone about it can really help.",
+                "Encouraging someone with depression to seek support from a mental health professional is important.",
+                "I'm here to listen. You don't have to go through this alone."
+            ]
+        },
+        {
+            "tag": "stress",
+            "patterns": [
+                "I'm feeling stressed",
+                "I can't handle my workload",
+                "I'm overwhelmed",
+                "I feel like I can't relax",
+                "I'm feeling stressed and can't relax",
+                "Work is making me feel stressed",
+                "I'm overwhelmed with everything right now",
+                "I'm stressed about school",
+                "I can't handle the pressure anymore",
+                "I'm feeling overwhelmed with life",
+                "Tell me more about stress",
+                "Explain more about stress",
+                "I want to know more about stress",
+                "Tell me more about stress",
+                "Explain more about stress",
+                "What are the symptoms of stress?",
+                "How can I manage stress?"
+            ],
+            "responses": [
+                "Stress can be hard to manage. Have you tried taking a break or deep breathing exercises?",
+                "I'm sorry to hear that. You're doing your best \u2014 it's okay to step back and rest.",
+                "It sounds like you have a lot on your plate. Would you like to talk about it?",
+                "It sounds like you\u2019re feeling overwhelmed. Taking a short break might help.",
+                "Stress can be hard to manage. Have you tried mindfulness or deep breathing?",
+                "It sounds like you have a lot on your plate. It's okay to take a break.",
+                "Stress can be difficult to manage. Would you like to try a quick mindfulness exercise together?",
+                "You're doing your best \u2014 it's okay to step back and breathe.",
+                "Stress can affect both your mind and body. Would you like to explore ways to reduce it?",
+                "Stress is normal, but it can become overwhelming. I'm here to help you work through it.",
+                "Do you feel like talking about what's causing you stress?",
+                "Stress can affect both your mind and body. Common symptoms include headaches, trouble sleeping, and irritability.",
+                "Stress can feel overwhelming, but techniques like mindfulness and deep breathing can help. Would you like to try a relaxation exercise together?",
+                "Managing stress is important for your health. Taking regular breaks and setting realistic goals can help."
+            ]
+        },
+        {
+            "tag": "personality disorder",
+            "patterns": [
+                "I'm struggling with my identity",
+                "I don't know who I am anymore",
+                "I'm scared of my thoughts",
+                "I feel like I'm not in control"
+            ],
+            "responses": [
+                "It sounds like you're going through a tough time. I'm here to listen.",
+                "Identity struggles can be difficult. Would you like to explore this more?",
+                "It's okay to feel confused. Talking to someone you trust might help."
+            ]
+        },
+        {
+            "tag": "suicidal",
+            "patterns": [
+                "I can't go on anymore",
+                "I feel like ending it all",
+                "I don't want to live anymore",
+                "I'm thinking about hurting myself",
+                "I feel like ending it all",
+                "I don't want to live anymore",
+                "I can't go on like this",
+                "I'm thinking of ending it all",
+                "I feel like I can't take it anymore",
+                "I want it all to stop"
+            ],
+            "responses": [
+                "I'm really sorry to hear that you're feeling this way. You're not alone \u2014 please reach out to a mental health professional.",
+                "You matter. Please consider talking to someone you trust or reaching out to a helpline.",
+                "I'm really concerned about you. It's important to talk to someone about this \u2014 you're not alone.",
+                "I'm really sorry to hear that you're feeling this way. You're not alone \u2014 please reach out to a mental health professional.",
+                "You matter. Please consider talking to someone you trust or reaching out to a helpline.",
+                "I'm really sorry to hear that. Please reach out to someone you trust \u2014 you matter.",
+                "You're not alone. It\u2019s important to talk to someone about these feelings.",
+                "I\u2019m really concerned about you. Please consider reaching out to a mental health professional."
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": [
+                "I'm not sure I understand. Could you say that differently?",
+                "I\u2019m here to listen \u2014 can you clarify what you mean?",
+                "I'm not sure how to respond to that. Can you explain a bit more?",
+                "I'm not quite sure how to respond to that. Can you explain more?",
+                "I\u2019m here to listen \u2014 feel free to share more.",
+                "That's interesting. Could you tell me more about it?"
+            ]
+        },
+        {
+            "tag": "fear",
+            "patterns": [
+                "I'm scared",
+                "I feel afraid",
+                "I'm worried something bad will happen",
+                "I'm feeling nervous and scared",
+                "I'm scared",
+                "I feel afraid",
+                "I'm worried something bad will happen",
+                "I'm feeling nervous and scared"
+            ],
+            "responses": [
+                "It's okay to feel scared. You're not alone \u2014 I'm here with you.",
+                "Feeling afraid is completely normal. Would you like to talk about what's making you feel this way?",
+                "Fear can be tough to manage. Try grounding yourself with deep breaths \u2014 it might help.",
+                "It's okay to feel scared. You're not alone \u2014 I'm here with you.",
+                "Feeling afraid is completely normal. Would you like to talk about what's making you feel this way?",
+                "Fear can be tough to manage. Try grounding yourself with deep breaths \u2014 it might help.",
+                "I'm here for you. You're not alone \u2014 would you like to share more about what's worrying you?"
+            ]
+        },
+        {
+            "tag": "confused",
+            "patterns": [
+                "I don't know what to say",
+                "I'm not sure how to feel",
+                "I'm confused",
+                "I can't explain how I'm feeling"
+            ],
+            "responses": [
+                "It's okay to feel unsure. I'm here to listen if you want to share more.",
+                "Feeling confused is normal. Would you like to talk about what's on your mind?",
+                "I'm here for you. Just take your time \u2014 you don\u2019t have to have all the answers."
+            ]
+        },
+        {
+            "tag": "confused",
+            "patterns": [
+                "I don't know what to say",
+                "I'm not sure how I feel",
+                "I can't describe what I'm feeling",
+                "I'm feeling off",
+                "I feel weird"
+            ],
+            "responses": [
+                "It's okay to feel unsure sometimes. I'm here if you\u2019d like to talk about it.",
+                "That's completely normal. Take your time \u2014 I'm here for you.",
+                "I understand. If you\u2019d like to share more when you\u2019re ready, I'm here."
+            ]
+        },
+        {
+            "tag": "knowledge_stress",
+            "patterns": [
+                "Tell me more about stress",
+                "What is stress?",
+                "How can I manage stress?",
+                "How does stress affect the body?"
+            ],
+            "responses": [
+                "Stress is a natural response to challenging situations. It can cause both mental and physical tension.",
+                "Managing stress can involve breathing exercises, mindfulness, or talking to someone you trust.",
+                "Chronic stress can affect your sleep, appetite, and mood. Finding healthy ways to cope is important."
+            ]
+        },
+        {
+            "tag": "knowledge_anxiety",
+            "patterns": [
+                "Tell me more about anxiety",
+                "What is anxiety?",
+                "How can I manage anxiety?",
+                "What are the symptoms of anxiety?"
+            ],
+            "responses": [
+                "Anxiety is a feeling of worry or fear. It\u2019s common to feel anxious before big events or uncertain situations.",
+                "Breathing exercises, grounding techniques, and mindfulness can help manage anxiety.",
+                "If anxiety feels overwhelming, talking to someone you trust can really help."
+            ]
+        },
+        {
+            "tag": "knowledge_depression",
+            "patterns": [
+                "Tell me more about depression",
+                "What is depression?",
+                "How can I manage depression?",
+                "What are the symptoms of depression?"
+            ],
+            "responses": [
+                "Depression is a mental health condition that causes persistent feelings of sadness and loss of interest.",
+                "Talking to friends, practicing self-care, and seeking professional support can help manage depression.",
+                "Depression is common and treatable. You're not alone \u2014 reaching out for help is a brave step."
+            ]
+        }
+    ]
+}
