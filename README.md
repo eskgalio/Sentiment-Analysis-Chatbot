@@ -1,7 +1,3 @@
-Here's a professional and portfolio-ready `README.md` for your **Mental Health Chatbot** project, along with an SEO-friendly description:
-
----
-
 ## 🧠 Mental Health Chatbot
 
 ### AI-Powered Conversational Support for Mental Well-being
